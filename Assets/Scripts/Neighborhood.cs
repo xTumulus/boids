@@ -150,4 +150,10 @@ public class Neighborhood : MonoBehaviour
       }
     }
   }
+
+  public void RemoveObstacle(Obstacle obstacle) {
+    if (obstacles.Contains(obstacle)) {
+      obstacles.Remove(obstacle);
+    }
+  }
 }

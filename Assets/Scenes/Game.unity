@@ -584,7 +584,7 @@ MonoBehaviour:
     obstacleAvoid: 200
     attractPull: 8
     attractPush: 2
-    velocityEasing: 0.08
+    velocityEasing: 0.06
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -599,8 +599,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstaclePrefab: {fileID: 1611909891384755154, guid: 54ba7195a2e124eb4a4710ddd5cc054d, type: 3}
   obstacleAnchor: {fileID: 794368067}
-  maxNumObstacles: 18
-  spawnRadius: 50
+  maxNumObstacles: 20
+  spawnRadius: 60
   spawnDelay: 0.1
 --- !u!114 &963194231
 MonoBehaviour:

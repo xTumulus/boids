@@ -4,22 +4,22 @@ using UnityEngine;
 
 [System.Serializable]
 public class BoidSettings {
-  public int velocity = 40;
-  public int boidColliderRadius = 20;
-  public int nearBoidDistance = 10;
-  public int nearObstacleDistance = 20;
-  public int attractPushDist = 1;
+  public int velocity = 32;
+  public int boidColliderRadius = 8;
+  public int nearBoidDistance = 5;
+  public int nearObstacleDistance = 15;
+  public int attractPushDist = 5;
 
   [Header("These \"influences\" are floats, usually from [0...4]")]
   public float velocityMatching = 8f;
   public float flockCentering = 0.2f;
   public float boidAvoid = 4f;
-  public float obstacleAvoid = 500f;
-  public float attractPull = 5f;
+  public float obstacleAvoid = 200f;
+  public float attractPull = 8f;
   public float attractPush = 2f;
 
   [Header("This determines how quickly Boids can turn and is [0...1]")]
-  public float velocityEasing = 0.8f;
+  public float velocityEasing = 0.06f;
   
 }
 

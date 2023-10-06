@@ -94,6 +94,10 @@ public class Boid : MonoBehaviour
     trailRenderer.endColor = randColor;
     trailRenderer.endWidth = 0;
   }
+
+  public void RemoveObstacleReferences(Obstacle obstacle) {
+    this.neighborhood.RemoveObstacle(obstacle);
+  }
   
   public Vector3 position {
     get {return transform.position;}
